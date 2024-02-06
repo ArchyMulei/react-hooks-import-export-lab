@@ -1,11 +1,16 @@
 import React from "react";
+import About from "./About";
+import Home from "./Home";
+import NavBar from "./NavBar";
 
-function Home() {
+function App() {
   return (
-    <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+    <div>
+      <NavBar />
+      <Home />
+      <About />
     </div>
   );
 }
+
+export default App;
